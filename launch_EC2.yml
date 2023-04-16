@@ -1,0 +1,15 @@
+# This is YAML File
+---
+Resources:
+  EC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-007855ac798b5175e
+      InstanceType: t2.micro
+      KeyName: PNT_DevOps
+      SecurityGroupIds:
+        - sg-02237d746ba3d8266
+      SubnetId: subnet-1cc0f112
+      Tags:
+        - Key: Name
+          Value: MyEC2Instance_in_YAML

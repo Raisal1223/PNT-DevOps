@@ -13,4 +13,4 @@ mkdir -p /media/external-drive/backups
 BACKUP_DIR=/media/external-drive/backups
 FILENAME=$BACKUP_DIR/home-backup-$BACKUP_ID.tar.gz
 
-tar -cvzf $FILENAME /home/ubuntu
+# tar -cvzf $FILENAME /home/ubuntu
